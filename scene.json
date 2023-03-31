@@ -1,13 +1,13 @@
 {
   "display": {
-    "title": "New scene",
+    "title": "DCL_PROGRAMMING",
     "favicon": "favicon_asset",
     "navmapThumbnail": "scene-thumbnail.png"
   },
-  "owner": "",
+  "owner": "Steezyarts",
   "contact": {
-    "name": "Guest",
-    "email": ""
+    "name": "Steezyarts",
+    "email": "support@steezyarts.com"
   },
   "main": "bin/game.js",
   "tags": [],
