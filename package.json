@@ -8,10 +8,13 @@
     "watch": "build-ecs --watch",
     "deploy:now": "dcl export && now export",
     "ecs:install": "npm install --save-dev decentraland-ecs@latest",
-    "ecs:install-next": "npm install --save-dev decentraland-ecs@next"
+    "ecs:install-next": "npm install --save-dev decentraland-ecs@next",
+    "build:lambda": "netlify-lambda build src/lambda",
+    "serve:lambda": "netlify-lambda serve src/lambda"
   },
   "devDependencies": {
-    "decentraland-ecs": "^6.11.14-4482203432.commit-0b1885b"
+    "decentraland-ecs": "^6.11.14-4482203432.commit-0b1885b",
+    "netlify-lambda": "^2.0.16"
   },
   "dependencies": {
     "@dcl/npc-scene-utils": "^1.5.1",
